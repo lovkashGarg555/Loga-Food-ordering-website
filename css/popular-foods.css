@@ -1,0 +1,113 @@
+.popular-foods {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 44, 44);
+}
+
+.popular-foods-filters {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: contain;
+}
+
+.popular-foods-title {
+    margin: 34px 0px;
+    font-size: 3rem;
+    color: white;
+    align-self: center;
+}
+
+.popular-foods-btn-active {
+    cursor: pointer;
+    height: 40px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+}
+
+.popular-foods-btn {
+    margin: 0 30px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(133, 33, 33);
+    color: white;
+    border-radius: 30px;
+    border: solid 3px white;
+    font-weight: bolder;
+}
+
+.popular-foods-btn:hover {
+    color: black;
+    background-color: white
+}
+
+.popular-foods-explore {
+    align-self: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 34px;
+    margin: 30px 0px 34px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.popular-foods-catalogue{
+    padding:38px;
+    min-width:260px;
+    height:fit-content;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+border-radius:36px;
+}
+.popular-foods-card{
+    width:20%;
+    border-radius:34px;
+    display:flex;
+    background-color:rgba(255,255,255,0.05);
+    flex-direction:column;
+    align-items:center;
+    color:white
+}
+.popular-foods-card-active{
+    width:20%;
+    margin:0px 75px;
+    border-radius:34px;
+    display:flex;
+    background-color:rgba(255,255,255,0.05);
+    flex-direction:column;
+    align-items:center;
+    color:white
+}
+.popular-foods-card-details{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
+}
+.popular-foods-card-rating{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:10px;
+    margin:20px 30px;
+}
+
+.popular-foods-card-price{
+    width:100%;
+    padding-left:130px;
+}
+.popular-foods-card-active{
+    background-color:white;
+}
+.popular-foods-card-active img{
+    width:214px;
+    height:200px;
+}

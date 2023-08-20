@@ -1,0 +1,66 @@
+.about-us{
+    display:flex;
+    min-height:720px;
+    overflow:hidden;
+    position:relative;
+}
+.about-us-image{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    /* position:relative; */
+}
+/*Due to down code we can edit it
+ .about-us-image div{
+    padding:32px 64px;
+    flex:1;
+    display: flex;
+    align-items:center;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.about-us-image-shahi-thali #shahithali{
+    width:100%;
+    height:400px;
+}
+.about-us-image-jaljeera img{
+    width:100%;
+    height:400px; 
+}
+.about-us-button{
+    padding:20px;
+    font-size:18px;
+    cursor:pointer;
+    position:absolute;
+    height:30px;
+    top:380px;
+    left:34.6vw;
+    display:flex;
+    align-items:center;
+    background-color: black;
+    color:white;
+    border-radius:32px 0 0 32px;
+}
+#arrow{
+    margin-left:20px;
+}
+.about-us-content{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:64px;
+}
+.about-us-content h1{
+    font-size:4rem;
+}
+.description{
+   font-size:25px; 
+}
+.thali-subtitle{
+    align-self:center;
+    font-size:35px;
+}
